@@ -19,13 +19,7 @@ body {
   background-size: cover;
   height: 40rem;
   width: inherit;
-  margin-top: 4rem;
-  color: #ffffff; }
-
-.mini-intro-icon {
-  margin-bottom: 2rem;
-  color: #333333;
-  margin-top: 6rem; }
+  margin-top: 12rem; }
 
 .footer {
   background: #21313F;
@@ -78,4 +72,4 @@ body {
 .footer-bottom p.pull-left {
   padding-top: 6px; }
 
-/*# sourceMappingURL=hockey.css.map */
+/*# sourceMappingURL=css.hockey.css.map */
