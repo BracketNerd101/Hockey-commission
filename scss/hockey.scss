@@ -31,6 +31,27 @@ body {
 
 }
 
+.headline-banner {
+  // font-family: 'Dosis', sans-serif;
+  font-family: 'Exo 2', sans-serif;
+  // font-family: 'Signika', sans-serif;
+
+}
+
+.photo-gallery {
+   margin-top: 4rem;
+   margin-bottom: 4rem;
+
+}
+
+.gallery-thumbnail {
+
+  height: 5rem;
+  width: 5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
 
 .home-banner {
     // background-image:url(../img/aedo.jpg);
@@ -46,14 +67,49 @@ body {
 .mini-intro-icon {
 
   margin-bottom: 2rem;
-  color: #333333;
+  color: $apple-green;
+  margin-top: 6rem;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+.mini-headlines {
+
+  margin-bottom: 2rem;
   margin-top: 6rem;
 
 }
 
 .photo-gallery {
+    height: inherit;
+    width: inherit;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
 
+.gallery-thumbnail {
+    width: inherit;
+    height: inherit;
+    margin-bottom: 1rem;
+    cursor: pointer;
 
+      .img {
+        height: inherit;
+        width: inherit;
+  }
+
+}
+
+.mission-statement {
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+  // display:flex;
+  // justify-content: center;
+
+  .mini-statement-card {
+    font-family: 'Exo 2', sans-serif;
+
+  }
 }
 
 
@@ -64,64 +120,81 @@ body {
 .footer {
 
     background: #21313F;
-  	height: auto;
+  	height: 15rem;
   	padding-bottom: 30px;
   	position: relative;
   	width: 100%;
   	border-bottom: 1px solid #CCCCCC;
   	border-top: 1px solid #DDDDDD;
 
-    .footer h3 {
-
-       border-bottom: 1px solid #BAC1C8;
-       color: #fff;
-       font-size: 18px;
-       font-weight: 600;
-       line-height: 27px;
-       padding: 40px 0 10px;
-       text-transform: uppercase;
-
-     .footer ul {
-
-        font-size: 13px;
-        list-style-type: none;
-        margin-left: 0;
-        padding-left: 0;
-        margin-top: 15px;
-        color: #F5F5F5;
-     }
-
-  }
+    // .footer h3 {
+    //
+    //    border-bottom: 1px solid #BAC1C8;
+    //    color: #fff;
+    //    font-size: 18px;
+    //    font-weight: 600;
+    //    line-height: 27px;
+    //    padding: 40px 0 10px;
+    //    text-transform: uppercase;
+    //
+    //  .footer ul {
+    //
+    //     font-size: 13px;
+    //     list-style-type: none;
+    //     margin-left: 0;
+    //     padding-left: 0;
+    //     margin-top: 15px;
+    //     color: #F5F5F5;
+  //    }
+  //
+  // }
 }
 
-.footer ul li a {
-	padding: 0 0 5px 0;
-	display: block;
+// .footer ul li a {
+// 	padding: 0 0 5px 0;
+// 	display: inline-block;
+// }
+
+// .footer a {
+// 	color: #F5F5F5
+// }
+
+.footer-link-placement {
+
+  // margin-left: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  // margin-right: auto;
+  height: inherit;
+  font-size: 1.3rem;
+  font-family: 'Exo 2', sans-serif;
+  // color: #ffffff;
+  display: inline-block;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+
 }
 
-.footer a {
-	color: #F5F5F5
-}
+// .supportLi h4 {
+// 	font-size: 20px;
+// 	font-weight: lighter;
+// 	line-height: normal;
+// 	margin-bottom: 0 !important;
+// 	padding-bottom: 0;
+// }
 
-.supportLi h4 {
-	font-size: 20px;
-	font-weight: lighter;
-	line-height: normal;
-	margin-bottom: 0 !important;
-	padding-bottom: 0;
-}
+// .bg-gray {
+// 	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+// 	box-shadow: 0 1px 0 #B4B3B3;
+// }
 
-.bg-gray {
-	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
-	box-shadow: 0 1px 0 #B4B3B3;
-}
-
-.footer-bottom {
-	background: #E3E3E3;
-	border-top: 1px solid #DDDDDD;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-.footer-bottom p.pull-left {
-	padding-top: 6px;
-}
+// .footer-bottom {
+// 	background: #E3E3E3;
+// 	border-top: 1px solid #DDDDDD;
+// 	padding-top: 10px;
+// 	padding-bottom: 10px;
+// }
+// .footer-bottom p.pull-left {
+// 	padding-top: 6px;
+// }
