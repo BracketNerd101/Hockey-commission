@@ -15,11 +15,11 @@ font-family: 'Roboto Condensed', sans-serif;
 */
 
 .navbar-toggler{
-    
+
     border: none;
 }
-.main-hockey-banner {
 
+.main-hockey-banner {
 
   background-image: url(../img/hockey001.jpg);
   background-size: cover;
@@ -83,7 +83,7 @@ margin-top: 8rem;
   margin-bottom: 2rem;
   color: #ffffff;
   margin-top: 6rem;
-  font-family: 'Exo 2', sans-serif; 
+  font-family: 'Exo 2', sans-serif;
 }
 
 .reg-info {
